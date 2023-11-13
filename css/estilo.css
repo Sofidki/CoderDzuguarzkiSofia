@@ -145,6 +145,10 @@ h3 {
     bottom: 150px;
 }
 
+.habilidades{
+    height: 800px;
+}
+
 .habiimg{
     width: 400px;
     height: 700px;
@@ -172,6 +176,9 @@ h3 {
     margin: 20px;
     width: 400px;
     margin: 50px;
+    display: flex;
+    border: #ffff00 1px solid;
+
 }
 
 /*Villanos*/
@@ -224,7 +231,11 @@ h3 {
 }
 
 @media (max-width:500px) {
-.textBox{
-    width: 100%;
+.textBox h2{
+    font-size: medium;
+    margin-left: 10px;
+    width: 300px;
+    top: 10px;
 }
+
 }

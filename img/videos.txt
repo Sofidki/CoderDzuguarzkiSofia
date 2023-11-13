@@ -126,3 +126,41 @@ h1 {
     margin-top: 500px;
 
 }
+
+/*villanos*/
+<div class="imagen"> 
+            <img src="../img/joker_D.webp" alt="Joker">
+            <img src="../img/joker_P.jpg" alt="Joker"> 
+        </div>
+        <div class="imagen">
+        <img src="../img/harley_D.jpg" alt="Harley Quinn"> 
+            <img src="../img/harley_P.jpg" alt="Harley Quinn">
+        </div>
+        <div class="imagen">
+            <img src="../img/espantapajaro_D.jpg" alt="El Espantapajaros"> 
+            <img src="../img/espantapajaro_P.webp" alt="El Espantapajaros"> 
+        </div>
+        <div>
+            <img src="../img/catwoma_D.jpg" alt="Gatúbela"> 
+            <img src="../img/catwoma_P.webp" alt="Gatúbela">
+        </div>
+        <div class="imagen">
+            <img src="../img/bane_D.webp" alt="Bane"> 
+            <img src="../img/bane_P.jpg" alt="Bane">
+        </div>
+        <div class="imagen">
+            <img src="../img/hiedra_D.webp" alt="H Venenosa"> 
+            <img src="../img/hiedrs_P.jpg" alt="Hiedra Venenosa">
+        </div>
+        <div class="imagen">
+            <img src="../img/doscaras_D.jpg" alt="Dos Caras"> 
+            <img src="../img/doscaras_P.jpg" alt="Dos caras">
+        </div>
+        <div class="imagen">
+            <img src="../img/pinguino_D.jpg" alt="Pingüino"> 
+            <img src="../img/pinguino_P.webp" alt="Pingüino"> 
+        </div>
+        <div class="imagen">
+            <img src="../img/frezer_D.webp" alt="Dr. Frío"> 
+        <img src="../img/frezer_P.webp" alt="Dr. Frío">
+        </div>
