@@ -1,0 +1,128 @@
+https://www.youtube.com/watch?v=61d0QVKFufA
+
+
+https://www.youtube.com/watch?v=a_f3kAtsv2c
+
+
+
+
+
+css
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.textBox h2 {
+    color: white;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.textBox p {
+    color: white;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.text .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.text .imgBox img {
+    max-width: 340px;
+
+}
+
+
+css 2.0
+
+body{
+    background-color: #2D2F2F;
+
+}
+
+.header{
+    background-color: #ffff00;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+
+.nav_links {
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links a {
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 400;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.text{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    border: red 5px solid;
+}
+
+.textBox{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.textBox h2 {
+    font-size: 32px;
+    width: 500px;
+    padding: 50px;
+}
+
+.textBox img {
+    width: 800px;
+    margin-left: 0;
+}
+
+.textBox p{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+
+}
