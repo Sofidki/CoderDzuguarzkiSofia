@@ -4,7 +4,38 @@ https://www.youtube.com/watch?v=61d0QVKFufA
 https://www.youtube.com/watch?v=a_f3kAtsv2c
 
 
+/*filmografia*/
 
+.peliculas{
+    margin-top: 30px;
+    display: grid;
+    grid:  40px 40px 1fr;
+    border: 1px solid red;
+
+    h2{
+        color: $color-primario;
+        font-size: $font-secundaria;
+        position: relative;
+        left: 100px;
+        top: 60px;
+    }
+    h3{
+        font-size: $font-terciaria;
+        width: 300px;
+        position: relative;
+        top: -45px;
+        right: 30px;
+    }
+    
+    p{
+        font-size: 16px;
+        justify-content: center;
+        width: 300px;
+        position: relative;
+        left: 80px;
+        top: -60px;
+    }
+}
 
 
 css
@@ -164,3 +195,34 @@ h1 {
             <img src="../img/frezer_D.webp" alt="Dr. Frío"> 
         <img src="../img/frezer_P.webp" alt="Dr. Frío">
         </div>
+
+
+
+/*Interpretes*/
+
+.personaje{
+    border: 1px solid red;
+    p{
+        color: $color-primario;
+        font-size: 20px;
+        width: 700px;
+        margin: 50px;
+        position: relative;
+        left: 150px;
+}
+}
+.personajeimg{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    position: relative;
+    left: 50px;
+    border: 1px solid green;
+
+    img{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+}
